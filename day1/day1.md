@@ -1,22 +1,3 @@
-Q: What is an Embedded System?
-An embedded system is a computer-based system designed to perform a specific dedicated task. It consists of hardware components like a microcontroller, sensors, and peripherals, controlled by firmware written for that application.
-Q: What is Firmware?
-Firmware is a software program stored in non-volatile memory such as Flash that directly controls hardware components and performs specific functions in an embedded system.
-Q: Why do embedded systems often use microcontrollers instead of microprocessors?
-Microcontrollers integrate the CPU, memory, and peripherals into a single chip, making them smaller, cheaper, lower power, and ideal for dedicated control applications.
-Q: Why is EV Charger an Embedded System?
-An EV charger is an embedded system because it contains controllers, sensors, communication interfaces, and firmware to manage charging operations. The firmware controls power modules, communicates with vehicles using CAN/PLC, communicates with backend servers using OCPP, monitors safety parameters, and manages charging according to defined protocols.
-Q: Why do Embedded Systems require Real-Time behavior?
-Embedded systems require real-time behavior because they interact with the physical world. The system must process inputs and generate outputs within a defined time constraint to ensure correct operation and safety.
-
-2. Flash vs RAM
-
-Yes. Below is your Day 1 consolidated note. Save it as:
-Embedded_Software_Engineer_Roadmap
-└── 01_Embedded_C
-    └── Day01
-        └── Day01_Embedded_System_Fundamentals.md
-You can also copy it into a Word document or your notebook.
 Day 1 – Embedded System Fundamentals
 1. What Is an Embedded System?
 An embedded system is a computer-based system designed to perform a specific or dedicated function within a larger product.
