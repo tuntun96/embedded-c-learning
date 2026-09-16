@@ -1,0 +1,36 @@
+!SESSION 2026-08-19 22:50:41.645 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\ETAM\Embedded_Software_Developer\01_Embedded_C\day18
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-08-19 22:50:52.046
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-08-19 22:50:52.050
+!MESSAGE Log4j2 initialized with config file D:\ETAM\Embedded_Software_Developer\01_Embedded_C\day18\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-08-19 22:50:57.312
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-08-20 09:39:46.242 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-08-20 09:40:03.170
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-08-20 09:40:03.172
+!MESSAGE Log4j2 initialized with config file D:\ETAM\Embedded_Software_Developer\01_Embedded_C\day18\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-08-20 09:40:08.474
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-08-20 10:55:15.672
+!MESSAGE Indexed 'test_project' (19 sources, 81 headers) in 6.04 sec: 4,316 declarations; 24,697 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0069%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-08-20 11:05:43.831
+!MESSAGE Indexed 'day18' (21 sources, 83 headers) in 4.66 sec: 4,922 declarations; 30,530 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0056%)

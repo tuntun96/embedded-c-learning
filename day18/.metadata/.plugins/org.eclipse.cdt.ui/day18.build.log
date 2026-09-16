@@ -1,0 +1,10 @@
+19:45:52 **** Incremental Build of configuration Debug for project day18 ****
+make -j8 all 
+arm-none-eabi-size  day18.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5440	     12	   1580	   7032	   1b78	day18.elf
+Finished building: default.size.stdout
+ 
+
+19:45:52 Build Finished. 0 errors, 0 warnings. (took 753ms)
+

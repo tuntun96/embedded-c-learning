@@ -1,0 +1,28 @@
+11:43:22 **** Incremental Build of configuration Debug for project day18 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F072xB -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "day18.elf" @"objects.list"   -mcpu=cortex-m0 -T"D:\ETAM\Embedded_Software_Developer\01_Embedded_C\day18\day18\STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="day18.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: day18.elf
+ 
+arm-none-eabi-size  day18.elf 
+arm-none-eabi-objdump -h -S day18.elf  > "day18.list"
+   text	   data	    bss	    dec	    hex	filename
+   5440	     12	   1580	   7032	   1b78	day18.elf
+Finished building: default.size.stdout
+ 
+Finished building: day18.list
+ 
+19:44:45 **** Incremental Build of configuration Debug for project day18 ****
+make -j8 all 
+arm-none-eabi-size  day18.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5440	     12	   1580	   7032	   1b78	day18.elf
+Finished building: default.size.stdout
+ 
+19:45:52 **** Incremental Build of configuration Debug for project day18 ****
+make -j8 all 
+arm-none-eabi-size  day18.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5440	     12	   1580	   7032	   1b78	day18.elf
+Finished building: default.size.stdout
+ 

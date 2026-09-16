@@ -1,0 +1,56 @@
+Configuration	day18_interrupt
+STM32CubeMX 	6.14.0
+Date	08/20/2026
+MCU	STM32F072RBTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	Serial_Wire	SYS_SWCLK	PA14
+SYS	Serial_Wire	SYS_SWDIO	PA13
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_EXTI13	
+21	PA5	GPIO_Output	
+46	PA13	SYS_SWDIO	TMS
+49	PA14	SYS_SWCLK	TCK
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	Serial_Wire	SYS_SWCLK	PA14
+SYS	Serial_Wire	SYS_SWDIO	PA13
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_EXTI13	
+21	PA5	GPIO_Output	
+46	PA13	SYS_SWDIO	TMS
+49	PA14	SYS_SWCLK	TCK
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : day18_interrupt
+Project Folder : D:\ETAM\Embedded_Software_Developer\01_Embedded_C\day18\day18_interrupt
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F0 V1.11.6
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Add necessary library files as reference in the toolchain project configuration file
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : No
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
